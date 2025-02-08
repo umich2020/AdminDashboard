@@ -1,3 +1,20 @@
-h1 {
-    background-color: lightcoral;
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 20vh 80vh;
+}
+sidebar {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+sidebar img {
+    grid-column: 1 /1;
+}
+sidebar > * {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+main {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
 }
