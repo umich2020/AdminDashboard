@@ -2,10 +2,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 20vh 80vh;
+    margin: 0;
 }
 sidebar {
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
+    row-gap: 32px;
+    background-color: lightblue;
+    grid-row: 1 / 5;
 }
 sidebar img {
     grid-column: 1 /1;
@@ -13,8 +17,22 @@ sidebar img {
 sidebar > * {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    column-gap: 12px;
+    padding-left: 8px;
+
 }
 main {
-    grid-row: 2 / 3;
+    grid-row: 2 / 5;
     grid-column: 2 / 3;
+    background-color: lightyellow;
+}
+header {
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 50% 50%;
+}
+bottom_header h5, bottom_header img {
+    background-color: red;
+    
 }

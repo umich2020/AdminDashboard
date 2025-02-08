@@ -10,8 +10,8 @@ https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin
 Steps I'm going to do:
 1. Create base html and link css. DONE
 2. Write out html elements.  DONE
-3. Write out grid properties to create layout
-4. Organize header
+3. Write out grid properties to create layout DONE
+4. Organize header DONE
 5. Organize side bar
 6. Organize main content
-7. get icons and external font
+7. get icons and external font-doing it after html maybe? or we can wait after getting the decen layout
