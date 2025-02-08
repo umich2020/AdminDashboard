@@ -8,8 +8,8 @@ https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin
 
 
 Steps I'm going to do:
-1. Create base html and link css
-2. Write out html elements. 
+1. Create base html and link css. DONE
+2. Write out html elements.  DONE
 3. Write out grid properties to create layout
 4. Organize header
 5. Organize side bar
