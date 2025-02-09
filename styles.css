@@ -6,7 +6,7 @@ body {
 }
 sidebar {
     display: grid;
-    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
     row-gap: 32px;
     background-color: lightblue;
     grid-row: 1 / 5;
