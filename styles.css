@@ -25,6 +25,9 @@ main {
     grid-row: 2 / 5;
     grid-column: 2 / 3;
     background-color: lightyellow;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
 }
 header {
     background-color: lightgreen;
@@ -73,4 +76,32 @@ left_side .right_side {
 #giant_pfp {
     grid-row: 1 / 3;
     background-color: lightskyblue;
+}
+main > middle, main > main_right {
+    display: grid;
+    grid-template-rows: inherit;
+}
+.main_titles { 
+    background-color: lightsalmon; 
+}
+projects {
+    background-color: peru;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+project {
+    background-color: lightgreen;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+icons {
+    justify-self: end;
+}
+trending_container {
+    background-color: mediumpurple;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+}
+right_text {
+    background-color: chocolate;
 }
